@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+		.head{
+		min-height :250px;
+		font-size: 25px;
+		text-align: center;
+		margin-left: 3px;
+		margin-right:3px;
+		border-bottom: 2px solid;
+		border-top:1px solid; 
+		}
+		.firstCol{
+		margin:2px;
+		min-height :1500px;
+		font-size: large;
+		text-align: left;
+		}
+		#mainDiv{
+		border: 1px solid;
+		}
+		h3 {
+		color: red;
+		}
+		
+	</style>
+	<title>BootStrap Form</title>
+	
+	<link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+				crossorigin="anonymous">
+										
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+			crossorigin="anonymous"></script>
+			
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+			crossorigin="anonymous"></script>
+		
+	<meta name = "viewport" content = "width = device-width , intial-scale = 1">
+	</head>
+	
+	<body>
+		<div id = "mainDiv" class = "container">
+		
+			<div>
+			<div class = "row">
+				<div class= "col-md-12">
+				<div class = "head" > <h1 style = "color:red;">Admission Form</h1>
+				<img src = "logo.jpg" alt = "Logo" align = "left" height = "150px" width = "250px">
+				<img src = "transparent.png" alt = "Your photo here" align = "right" height = "150px" width = "250px" border = "1px">
+				
+				</div>
+				</div>
+			</div>
+				
+			<div class = "container">
+				<div class = "row">
+				<div class= "col-md-8">
+				<div class = "firstCol" >
+				<form class = "form-horizontal">
+					<h3> Personal Information</h3>
+				<div class="form-group">
+				<label class="control-label col-sm-4" for="name"><b>Name:</b></label>
+				<div class="col-md-8">
+				<input type="email" class="form-control" id="email" placeholder="Enter name">
+				</div>
+			</div>
+		
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="fname"><b>Father's Name:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="fname" placeholder="Enter father's name">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="dob"><b>DOB:</b></label>
+				<div class="col-sm-8">
+				<input type="date" class="form-control" id="dob" placeholder="Enter your date of birth">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="gender"><b>Gender:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="gender" placeholder="Enter your gender">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="cnic"><b>CNIC No:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="cnic" placeholder="Enter your B form No">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="mob"><b>Mobile:</b></label>
+				<div class="col-sm-8">
+				<input 3type="number" class="form-control" id="mob" placeholder="Enter your mobile number">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="email"><b>Email:</b></label>
+				<div class="col-sm-8">
+				<input type="email" class="form-control" id="email" placeholder="Enter your email">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="pinst"><b>Previous Institute:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="pinst" placeholder="Enter your previous institute name">
+				</div>
+			</div>
+			
+			<h3> Father's/Gaurdian Information</h3>
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="fathername"><b>Father/Gaurdian Name:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="fathername" placeholder="Enter your father name">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="rel"><b>Relation:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="rel" placeholder="Enter Your relation">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="minc"><b>Monthly Income:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="minc" placeholder="Enter father's monthly income">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="fcnic"><b>Father CNIC:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="fcnic" placeholder="Enter father's CNIC">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="rank"><b>Desigination/Rank:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="rank" placeholder="Enter father's rank">
+				</div>
+			</div>
+			
+			<h3> Transport Information</h3>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="bsn"><b>Bus Stop Name:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="bsn" placeholder="Enter bus stop name">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="route"><b>Route#:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="route" placeholder="Enter route">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="city"><b>City:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="city" placeholder="Enter city name">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="control-label col-sm-5" for="cNo"><b>Contact No:</b></label>
+				<div class="col-sm-8">
+				<input type="text" class="form-control" id="cNo" placeholder="Enter contact number">
+				</div>
+			</div>
+		
+			</form>
+		</div>
+		</div>
+
+		<div class= "col-md-4">
+			<div class = "firstCol" >
+			
+			<form class = "form-horizontal">
+			<div class="form-group">
+				<label for="fno">Form No:</label>
+				<input type="number" class="form-control" id="fno">
+			</div>
+		
+			<div class="form-group">
+				<label for="sno">Serial No:</label>
+				<input type="number" class="form-control" id="sno">
+			</div>
+			
+			<div class="form-group">
+				<label for="ino">Inquiry No:</label>
+				<input type="number" class="form-control" id="ino">
+			</div>
+			
+			<div class="form-group">
+				<label for="sdate">Submission date:</label>
+				<input type="date" class="form-control" id="sdate">
+			</div>
+			
+		</form>
+			
+			<h3> Session </h3>
+				<label><input type="checkbox" name="morning" value="Morning"> Morning</label>
+				<label><input type="checkbox" name="afternoon" value="Morning"> Afternoon</label><br><br>
+
+				<h3>Applying For</h3>
+				<label><input type="checkbox" name="fscmed" value="F.Sc"> F.Sc (Med)</label>
+				<label><input type="checkbox" name="fsceng" value="F.Sc"> F.Sc(Eng)</label><br><br>
+
+				<label><input type="checkbox" name="ics" value="ICS">ICS(phy) (Med)</label>
+				<label><input type="checkbox" name="ics" value="ICS"> ICS(Stat)</label><br><br>
+
+				<label><input type="checkbox" name="icom" value="ICOM"> I.Com</label>
+				<label><input type="checkbox" name="adp" value="ADP"> A.D.P</label><br><br>
+
+				<label><input type = "checkbox" name = "bcom" value = "BCOM">B.com</label><br><br>
+				<label><input type = "checkbox" name = "bscs" value = "BSCS">BSCS</label><br><br>
+				<label><input type = "checkbox" name = "bsc" value = "Bsc">B.Sc</label><br><br>
+				<label><input type = "checkbox" name = "llb" value = "LLB">L.L.B</label><br>
+				<label><input type = "checkbox" name = "bsphysics" value = "BS">B.S (Physics)</label> <br><br>
+				<label><input type = "checkbox" name = "bschemistry" value = "BS">B.S(Chemistry)</label><br>
+				<label><input type = "checkbox" name = "bsbotany" value = "BS">B.S(Botany)</label><br><br>
+				<label><input type = "checkbox" name = "bszology" value = "BS">B.S(Zology)</label><br><br>
+				<label><input type = "checkbox" name = "bsmaths" value = "BS">B.S(Maths)</label><br>
+				<label><input type = "checkbox" name = "bsenglish" value = "BS">B.S(Enflish)</label><br><br>
+				<label><input type = "checkbox" name = "bed" value = "BED">B.Ed</label><br><br>
+				<label><input type = "checkbox" name = "mcom" value = "MCOM">M.Com</label><br>
+				<label><input type = "checkbox" name = "msc" value = "MSC">M.Sc(IT)</label><br><br>
+				<label><input type = "checkbox" name = "mba" value = "MBA">MBA(Executive & Professional</label><br><br>
+				Others: <input type = "text" name = "others">
+			</div>
+			</div>
+			</div>
+		
+			</div>
+			<h3>Student Acadamic Detail</h3>
+			<table class="table table-bordered">
+		<thead>
+		  <tr>
+			<th>Education</th>
+			<th>Insitutte/Board /University</th>
+			<th>Roll No</th>
+			<th>Cource/Subject</th>
+			<th>Obt Marks</th>
+			<th>Toatal Marks</th>
+			<th>Grade</th>
+			<th>Year</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td><b>Matriculation</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			
+		  </tr>
+		  <tr>
+			<td><b>Intermediate</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  <tr>
+			<td><b>Graduation</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  <tr>
+			<td><b>Others</b></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  
+		</tbody>
+	  </table>
+	  
+	  <h3>Sibling Information</h3>
+			<table class="table table-bordered">
+		<thead>
+		  <tr>
+			<th>Name</th>
+			<th>Relation</th>
+			<th>Roll No</th>
+			<th>Class</th>
+		
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td> 
+		  </tr>
+		  <tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  <tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		  </tr>
+		  
+		</tbody>
+	  </table>
+	  
+		<div class = "jumbotron">
+		<h3>Description</h3>
+		  <p>I hearby declare that the information here is correct to the best of my knowledge and being a parent/Gaurdian I understand that: </p>
+
+			<ul> 
+			<li>I shall have to pay fee regulary as per instruction of the collage</li>
+			<li>When I pay fee, I am aware that it is not refunded in any circumstances. </li>
+			<li>My child will not take part in any political and unlawful activity.</li>
+			<li>My child is attend classes regulary as required by the collage as well as by Board/University regulations.</li>
+			<li>The collage authorities have right to change the course requirement , fee, timetable, vanue, facility, uniform etc.</li>
+			<li>In the case pf failure  to abide by the collage rules I shall have no objections to the cancellation of admission of my child.</li>
+			<li>Decision of the adminstrator will final in any case.</li>
+			</ul>
+			
+		</div>
+		
+		<form class = "form-inline">
+			<div class="form-group">
+				<label for="fname">Father's/ Gaurdian's Signature:</label>
+				<input type="text" class="form-control" id="fname">
+			</div>
+			
+			<div class="form-group">
+				<label for="fname">Applicant's Signature:</label>
+				<input type="text" class="form-control" id="fname">
+			</div>
+			
+			<div class="form-group">
+				<label for="fname">Date:</label>
+				<input type="date" class="form-control" id="fname">
+			</div>
+			
+		</form>
+		
+		<h3>Things to be attached</h3>
+		<label><input type="checkbox" name="psp">Passport size photos</label>
+		<label><input type="checkbox" name="cfc">2 Copies of Father/Gaurdian CNIC</label>
+		<label><input type="checkbox" name="chc">2 coppies of SS/HSS Certificate</label><br>
+		<label><input type="checkbox" name="csc">2 coppies of Student's CNIC/BFORM</label>
+		<label><input type="checkbox" name="noc">NOC</label>
+		
+		<div width = "300" height = "150">
+		
+		<table class = "table table-bordered">
+				<thead>
+					<tr>
+					<th>Admission Granted</th>
+					<th>Remarks</th>
+					<th>Principle</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>
+							<label><input type="radio" name="yes" value = "yes">Yes</label>
+							<label><input type="radio" name="no" value = "no">No</label><br>
+							<label for = "rollno" > Roll No: <input type = "number" name = "rollno"></label><br><br>
+							<label for = "sec" > Section: <input type = "text" name = "section"></label></td>
+							
+							<td>
+							<label for = "fee"><input type = "textarea" name = "fee" placeholder = "Fee package"  rows = "20 " col = "20"></label><br>
+							<label for = "others" > Others:<br>
+							<input type = "text" name = "other"></label></td>
+							
+							<td>
+							<label for = "fee"><input type = "textarea" name = "fee" placeholder = "Principle Signature's"  rows = "20 " col = "30"></label>
+							</td>
+					</tr>
+			</table>
+		</div>
+		
+		<button type="button" class="btn btn-primary">Submit</button>
+	
+	</div>
+	
+	<nav aria-label="Page navigation">
+  <ul class="pagination pagination-lg">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+	
+	</div>
+	</body>
+	
+</html>
